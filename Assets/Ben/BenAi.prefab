@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1872309787230176204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5295781986889088862}
+  - component: {fileID: 8065112268858834738}
+  m_Layer: 0
+  m_Name: BenAi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5295781986889088862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872309787230176204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8065112268858834738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872309787230176204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110bfa063e3770b459a0f49f5bf30d6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myBot: {fileID: 0}
+  otherBots: []
+  healthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.026315778
+      value: 0.034228683
+      inSlope: 2.0844898
+      outSlope: 2.0844898
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.29999998
+      value: 0.6047206
+      inSlope: 0.63751376
+      outSlope: 1.287384
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.083124444
+      outWeight: 0.155888
+    - serializedVersion: 3
+      time: 0.72631574
+      value: 1.0382693
+      inSlope: 1.0954306
+      outSlope: -0.0134686595
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.083462596
+      outWeight: 0.19983092
+    - serializedVersion: 3
+      time: 1.0263158
+      value: 1.0342287
+      inSlope: -0.0134686595
+      outSlope: -0.0134686595
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  energy:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.9725473
+      outSlope: 0.9725473
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.099999994
+      value: 0.09725472
+      inSlope: 0.7881519
+      outSlope: 0.82741004
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.9546276
+      outWeight: 0.32080206
+    - serializedVersion: 3
+      time: 0.14835814
+      value: 0.6956844
+      inSlope: 2.8510113
+      outSlope: 0.31672722
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.16541348
+      outWeight: 0.18714128
+    - serializedVersion: 3
+      time: 0.79999995
+      value: 0.9020771
+      inSlope: 0.31672722
+      outSlope: 0.65156114
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.3635533
+      outSlope: 0.3635533
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.13426422
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

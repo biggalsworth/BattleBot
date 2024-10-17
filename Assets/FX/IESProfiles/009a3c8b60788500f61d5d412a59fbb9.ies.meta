@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 0886f21cc4172bf4f835b66a6910ec73
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 9801397f829a1ed42984340315cbf362, type: 3}
+  iesMetaData:
+    FileFormatVersion: LM-63-2002
+    IESPhotometricType: Type C
+    IESMaximumIntensity: 8117.721
+    IESMaximumIntensityUnit: Candelas
+    Manufacturer: Lithonia Lighting
+    LuminaireCatalogNumber: DSX0 LED P12 40K TFTM MVOLT HS R90
+    LuminaireDescription: DSX0 LED P12 40K TFTM MVOLT with houseside shield with
+      optics rotated 90 degrees right
+    LampCatalogNumber: PCBA LEM-30 4000K 319A 70 CRI 501-00582-005
+    LampDescription: LED
+    PrefabLightType: 0
+    SpotAngle: 120
+    iesSize: 128
+    ApplyLightAttenuation: 1
+    UseIESMaximumIntensity: 1
+    CookieCompression: 2
+    LightAimAxisRotation: -90

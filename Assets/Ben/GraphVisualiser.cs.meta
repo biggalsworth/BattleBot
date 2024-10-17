@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 70955fcef29b6fa4fb40e8babe82295f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - nodePrefab: {fileID: 5979965731804591417, guid: 7354a21f7374f8a41a8562dbc003a39e,
+      type: 3}
+  - edgePrefab: {fileID: 716926979464928515, guid: 188149b180d17e048a7d90103e1400e7,
+      type: 3}
+  - pathNode: {fileID: 5979965731804591417, guid: 86d3a75245b8e424ba23702bbbd4c04b,
+      type: 3}
+  - pathEdge: {fileID: 716926979464928515, guid: bea435cbc19fb8a4697f38f578aaf51c,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
