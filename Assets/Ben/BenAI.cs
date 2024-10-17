@@ -429,13 +429,16 @@ public class BenAI : BotAI
                     {
                         myBot.SetThrottleState(0f);
 
-                        StopCoroutine(directionRoutine);
+                        //StopCoroutine(directionRoutine);
+                        //StopAllNavigationCoroutines();
 
                         state = states.Engaging;
 
                         AimAtPoint(target.position);
 
                         yield return new WaitUntil(() => aimed);
+                        StopCoroutine(directionRoutine);
+                        //StopAllNavigationCoroutines();
                     }
                 }
                 else if (Distance2D(target.position, myBot.GetStats().position) < 85.0f)
